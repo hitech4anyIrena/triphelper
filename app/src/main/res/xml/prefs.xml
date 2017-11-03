@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/search_settings">
+
+    </PreferenceCategory>
+    <EditTextPreference
+        android:defaultValue="200"
+        android:key="@string/periodicity_key"
+        android:numeric="integer"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/periodicity" />
+    <EditTextPreference
+        android:defaultValue="1"
+        android:key="@string/radius_key"
+        android:numeric="integer|decimal"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/radius" />
+    <ListPreference
+        android:defaultValue="2"
+        android:entries="@array/distance"
+        android:entryValues="@array/distance"
+        android:key="@string/distance_key"
+        android:title="@string/distance_measure" />
+</PreferenceScreen>

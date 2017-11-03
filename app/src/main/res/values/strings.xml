@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Trip Helper</string>
+    <string name="enter">enter</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="search_settings">Search settings</string>
+    <string name="periodicity">Periodicity(sec)</string>
+    <string name="periodicity_key">periodicity_key</string>
+    <string name="radius">Radius</string>
+    <string name="radius_key">radius_key</string>
+    <string name="distance_measure">Distance measure</string>
+    <string name="distance_key">distance_key</string>
+    <string name="search">search</string>
+    <string name="search_keyword">enter a search keyword here</string>
+    <string name="edit">Edit</string>
+    <string name="microphone">Microphone</string>
+    <string name="needProvider">you need internet service and location permissions to be able to search</string>
+    <string name="endSearch">The search is ended</string>
+    <string-array name="distance">
+        <item name="miles">miles</item>
+        <item name="kilometers">kilometers</item>
+    </string-array>
+    <string name="title_activity_maps_plase">Map</string>
+    <string name="list_tab">Places</string>
+    <string name="favorite_tab">Favorites</string>
+    <string name="search_tab">Advanced searh</string>
+    <string name="share">Share place</string>
+    <string name="addToFv">Add to favorites</string>
+    <string name="usb">Cable/usb plugged.</string>
+    <string name="unplugged">Cable/usb unplugged.</string>
+    <string name="nrb_search">nearby search</string>
+
+
+</resources>
